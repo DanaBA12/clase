@@ -1,0 +1,25 @@
+.gallery-item {
+    background-color: #d2fcdca8;
+    border: 2px solid #0505054d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
+    margin: 10px;
+    padding: 20px;
+    width: 270px;
+    height: 450px;
+       
+}
+.gallery-item p {
+    width: 200px;
+    height: 280px;
+    margin: 0;
+    text-align: justify;
+    overflow: auto;
+    font-size: medium;
+
+}
+.gallery-vertical {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
